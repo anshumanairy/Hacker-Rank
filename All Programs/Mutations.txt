@@ -1,0 +1,12 @@
+def func():
+    s=input("")
+    list1=list(s)
+    c=input("")
+    a,b=map(str,c.split())
+    a=int(a)
+    list1[a]=b
+    s=''.join(list1)
+    print(s)
+func()
+
+
